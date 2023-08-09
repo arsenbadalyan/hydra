@@ -1,13 +1,30 @@
 .btn {
     border: none;
     cursor: pointer;
+    transition: all 500ms;
+}
+
+.btn:hover {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5); 
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.5);
 }
 
 .primaryBtn {
     border-radius: 40px;
     background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
     color: #343045;
-    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.secondaryBtn {
+    background: transparent;
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    color: #FFF;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;

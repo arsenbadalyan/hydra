@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    padding: 50px 84px;
+    padding: 50px 0;
 }
 
 .headerInner {
@@ -37,4 +37,9 @@
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
+}
+
+.headerButtons {
+    display: flex;
+    gap: 38px;
 }

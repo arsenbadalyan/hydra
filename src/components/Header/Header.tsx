@@ -1,10 +1,11 @@
 import styles from './Header.module.css';
 import logo from '../../assets/imgs/svg/logo.svg';
 import logoText from '../../assets/imgs/svg/logo_text.svg';
-import { useMemo } from 'react';
+import { ReactElement, useMemo } from 'react';
 import ButtonPrimary from '../Button/ButtonPrimary';
+import ButtonSecondary from '../Button/ButtonSecondary';
 
-const Header = () => {
+const Header = (): ReactElement => {
     const menuItems = useMemo(() => [
         "About",
         "Services",
@@ -27,6 +28,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className={styles.headerButtons}>
+                    <ButtonSecondary w={155} h={48} title="CONTACT US" onClick={() => {}} />
                     <ButtonPrimary w={155} h={48} title="JOIN HYDRA" onClick={() => {}} />
                 </div>
             </div>

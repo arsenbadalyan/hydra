@@ -1,7 +1,7 @@
 import styles from './Button.module.css'
-import { BtnProps } from '../../interfaces/Button'
+import { IBtnProps } from '../../interfaces/Button'
 
-const ButtonPrimary = ({ w, h, title, classes, onClick }: BtnProps) => {
+const ButtonPrimary = ({ w, h, title, classes, onClick }: IBtnProps) => {
     return (
         <>
             <button

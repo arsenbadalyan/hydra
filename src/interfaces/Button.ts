@@ -1,4 +1,4 @@
-export interface BtnProps {
+export interface IBtnProps {
     w: number,
     h: number,
     title: string,
