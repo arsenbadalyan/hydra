@@ -1,0 +1,86 @@
+/* ---------------- Common part of Info section */
+.infoSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------- Info section General */
+.infoSectionGeneral_info {
+    width: 456px;
+}
+
+.infoSectionGeneral_info__title {
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.infoSectionGeneral_info__text{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 36px;
+}
+
+.infoSectionGeneral_info__action {
+    display: flex;
+    align-items: center;
+}
+
+.infoSectionGeneral_poster {
+    width: 490px;
+    position: relative;
+}
+
+.infoSectionGeneral_poster__img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.infoSectionGeneral_poster__img::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 100px 100px 100px 240px;
+    background: rgba(0, 0, 0, 0.13);
+    padding: 13px 17px 14px 15px;
+}
+
+.infoSectionGeneral_poster__img img {
+    border-radius: 100px 100px 100px 240px;
+    overflow: hidden;
+}
+
+.infoSectionGeneral_poster__vectors {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoSectionGeneral_poster__vectors img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoSectionGeneral_poster__vectors img:nth-child(1) {
+    transform: translate(-20%, -50%);
+}
+
+.infoSectionGeneral_poster__vectors img:nth-child(2) {
+    transform: translate(-40%, -50%);
+}
+
+.infoSectionGeneral_poster__vectors img:nth-child(3) {
+    transform: translate(-50%, -20%);
+}

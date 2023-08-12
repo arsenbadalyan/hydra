@@ -4,7 +4,6 @@ import Header from './components/Header/Header.js'
 import InfoSection from './components/InfoSection/InfoSection.js';
 
 function App() {
-
   return (
     <>
       <Header />
