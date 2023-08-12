@@ -16,6 +16,7 @@
 .headerLogo {
     height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 15px;
     cursor: pointer;
@@ -23,6 +24,10 @@
 
 .headerLogo img {
     max-height: 100%;
+}
+
+.headerLogo img:nth-child(2) {
+    height: 46px;
 }
 
 .headerMenu ul {
